@@ -1,0 +1,148 @@
+{
+  "user_profile": {
+    "user_id": "u_1001",
+    "name": "Sravan",
+    "timezone": "Asia/Kolkata",
+    "work_hours": "09:00-18:00",
+    "interests": ["cricket", "startups", "college"],
+    "behavior": {
+      "usually_opens": ["family", "work", "college_group"],
+      "usually_ignores": ["promotions", "unknown_numbers"],
+      "avg_reply_minutes": 12
+    }
+  },
+  "messages": [
+    {
+      "message_id": "msg_001",
+      "timestamp": "2026-08-01T09:12:00+05:30",
+      "content": {
+        "type": "text",
+        "text": "Dad had an accident, we are at the hospital. Please call me immediately!"
+      },
+      "sender": {
+        "sender_id": "c_mom",
+        "name": "Mom",
+        "is_contact": true,
+        "trust_level": "high"
+      },
+      "forwarded_count": 0,
+      "history": [
+        {"message_id": "msg_h001", "text": "Reached home safely", "timestamp": "2026-07-30T20:11:00+05:30"},
+        {"message_id": "msg_h002", "text": "Call me when free", "timestamp": "2026-07-31T18:02:00+05:30"}
+      ]
+    },
+    {
+      "message_id": "msg_002",
+      "timestamp": "2026-08-01T09:40:00+05:30",
+      "content": {
+        "type": "text",
+        "text": "Congratulations! You won a lottery of $10,000. Claim now: http://free-prize.xyz/claim"
+      },
+      "sender": {
+        "sender_id": "unknown_9182",
+        "name": "+91 91820 00000",
+        "is_contact": false,
+        "trust_level": "untrusted"
+      },
+      "forwarded_count": 12,
+      "history": []
+    },
+    {
+      "message_id": "msg_003",
+      "timestamp": "2026-08-01T10:05:00+05:30",
+      "content": {
+        "type": "text",
+        "text": "Team, the sprint demo deck is due today before 5 PM. Please review the draft."
+      },
+      "sender": {
+        "sender_id": "c_lead",
+        "name": "Anita (Team Lead)",
+        "is_contact": true,
+        "trust_level": "high"
+      },
+      "group_info": {
+        "group_id": "g_work",
+        "group_name": "Product Team",
+        "members": 14,
+        "muted": false
+      },
+      "forwarded_count": 0,
+      "history": [
+        {"message_id": "msg_h010", "text": "Sprint planning notes attached", "timestamp": "2026-07-29T11:00:00+05:30"}
+      ]
+    },
+    {
+      "message_id": "msg_004",
+      "timestamp": "2026-08-01T10:30:00+05:30",
+      "content": {
+        "type": "image",
+        "caption": "Photos from Sunday's cricket match",
+        "mime_type": "image/jpeg",
+        "size_kb": 842
+      },
+      "sender": {
+        "sender_id": "c_ravi",
+        "name": "Ravi",
+        "is_contact": true,
+        "trust_level": "medium"
+      },
+      "group_info": {
+        "group_id": "g_college",
+        "group_name": "College Friends",
+        "members": 32,
+        "muted": false
+      },
+      "forwarded_count": 1,
+      "history": [
+        {"message_id": "msg_h020", "text": "Match at 7am on Sunday", "timestamp": "2026-07-28T09:00:00+05:30"}
+      ]
+    },
+    {
+      "message_id": "msg_005",
+      "timestamp": "2026-08-01T11:00:00+05:30",
+      "content": {
+        "type": "audio",
+        "duration_seconds": 47,
+        "transcript": "Hi, your order has been shipped and will arrive on Tuesday."
+      },
+      "sender": {
+        "sender_id": "b_shopnow",
+        "name": "ShopNow",
+        "is_contact": false,
+        "trust_level": "medium"
+      },
+      "business_info": {
+        "business_id": "b_shopnow",
+        "verified": true,
+        "category": "e-commerce"
+      },
+      "forwarded_count": 0,
+      "history": [
+        {"message_id": "msg_h030", "text": "Order #4412 confirmed", "timestamp": "2026-07-30T14:20:00+05:30"}
+      ]
+    },
+    {
+      "message_id": "msg_006",
+      "timestamp": "2026-08-01T11:20:00+05:30",
+      "content": {
+        "type": "text",
+        "text": "Limited offer! Verify your account and get a free gift, click here www.deal-now.top"
+      },
+      "sender": {
+        "sender_id": "b_promo",
+        "name": "MegaDeals",
+        "is_contact": false,
+        "trust_level": "low"
+      },
+      "business_info": {
+        "business_id": "b_promo",
+        "verified": false,
+        "category": "promotions"
+      },
+      "forwarded_count": 7,
+      "history": [
+        {"message_id": "msg_h040", "text": "Limited offer! Verify your account", "timestamp": "2026-07-31T11:20:00+05:30"}
+      ]
+    }
+  ]
+}
