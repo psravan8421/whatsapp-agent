@@ -226,7 +226,7 @@ def process_messages(payload: Any, use_llm: bool = True) -> List[Dict[str, Any]]
 
     if use_llm and not llm_available():
         LOGGER.warning(
-            "No API key found (OPENAI_API_KEY / ANTHROPIC_API_KEY); "
+            "No API key found (OPENAI_API_KEY / GROQ_API_KEY / ANTHROPIC_API_KEY); "
             "using the built-in heuristic classifier."
         )
 
