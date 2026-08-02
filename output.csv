@@ -1,7 +1,0 @@
-message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_001,notify,urgent,sender trust and urgency language,0.95,msg_001
-msg_002,mute,scam,suspicious link and untrusted sender,0.95,msg_002
-msg_003,notify,urgent,Message contains urgency language and is from a trusted sender,0.9,msg_003
-msg_004,digest,social,message is from a trusted contact and aligns with user interests,0.8,msg_h020
-msg_005,notify,transactional,trusted sender and relevant content,0.85,msg_h030
-msg_006,mute,spam,"suspicious link, low sender trust, repetitive content, and user behavior",0.9,"msg_006,msg_h040"
