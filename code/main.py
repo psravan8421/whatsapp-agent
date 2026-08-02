@@ -22,9 +22,13 @@ def main():
     parser = argparse.ArgumentParser(description="WhatsApp AI Message Router")
     parser.add_argument("--data_dir", type=str, default=str(config.DEFAULT_DATA_DIR),
                         help="Directory containing the datasets")
+    parser.add_argument("--output", type=str, help="Path to save the output CSV")
+    parser.add_argument("--push", action="store_true", help="Push results to GitHub")
     args = parser.parse_args()
 
     data_dir = Path(args.data_dir)
+    output_file = Path(args.output) if args.output else data_dir / "router_output.csv"
+    
     log_file = config.LOG_DIR / "output.log"
     setup_logging(log_file)
 
@@ -38,7 +42,7 @@ def main():
 
     if messages.empty:
         logger.error("No messages found to process.")
-        return
+        sys.exit(1)
 
     # Initialize engines
     fe = FeatureEngineer(context)
@@ -73,12 +77,16 @@ def main():
 
     # Save output
     output_df = pd.DataFrame(results)
-    output_df.to_csv(config.DEFAULT_OUTPUT_FILE, index=False)
-    logger.info(f"Generated output.csv with {len(results)} rows.")
+    output_df.to_csv(output_file, index=False)
+    logger.info(f"Generated {output_file.name} with {len(results)} rows.")
 
     # GitHub Sync
-    gh = GitHubHandler(config.REPO_URL, config.GITHUB_TOKEN)
-    sync_status = gh.sync(config.DEFAULT_OUTPUT_FILE)
+    sync_status = False
+    if args.push:
+        gh = GitHubHandler(config.REPO_URL, config.GITHUB_TOKEN)
+        sync_status = gh.sync(output_file)
+    else:
+        logger.info("GitHub push skipped (use --push to enable).")
 
     # Print Console Output as required
     print("-" * 30)
