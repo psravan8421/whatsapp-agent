@@ -1,0 +1,4 @@
+Total files: 33
+Total images processed: 20
+Total voice notes processed: 13
+Errors: none

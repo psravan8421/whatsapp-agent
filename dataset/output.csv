@@ -1,111 +1,34 @@
-message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,notify,business_update,Verified business update,0.9,message_0101;message_0026
-msg_091,mute,scam,Detected potential scam,0.95,message_0035;message_0322
-msg_090,notify,personal,Frequent personal contact,0.75,message_0339;message_0340
-msg_048,digest,forward,Non-urgent forward,0.8,message_0269;message_0180
-msg_040,mute,spam,Detected potential spam,0.85,message_0188;message_0052
-msg_075,notify,business_update,Verified business update,0.9,message_0234;message_0295
-msg_005,notify,personal,Frequent personal contact,0.75,message_0332;message_0114
-msg_104,digest,personal,Default to digest for regular updates,0.75,message_0115;message_0336
-msg_069,mute,spam,Detected potential spam,0.85,message_0063;message_0005
-msg_107,digest,forward,Non-urgent forward,0.8,message_0173;message_0086
-msg_070,notify,personal,Frequent personal contact,0.75,message_0173;message_0086
-msg_003,notify,business_update,Verified business update,0.9,message_0266;message_0169
-msg_099,notify,event,Event related message,0.85,message_0143;message_0249
-msg_008,notify,business_update,Verified business update,0.9,message_0072;message_0298
-msg_092,notify,promotion,Event related message,0.85,message_0344;message_0384
-msg_060,notify,personal,Frequent personal contact,0.75,message_0160;message_0375
-msg_004,notify,business_update,Verified business update,0.9,message_0063;message_0005
-msg_030,digest,forward,Non-urgent forward,0.8,message_0115;message_0336
-msg_045,notify,personal,Frequent personal contact,0.75,message_0266;message_0169
-msg_052,digest,forward,Non-urgent forward,0.8,message_0160;message_0375
-msg_009,notify,personal,Frequent personal contact,0.75,message_0032;message_0261
-msg_071,notify,personal,Frequent personal contact,0.75,message_0022;message_0198
-msg_016,digest,forward,Non-urgent forward,0.8,message_0252;message_0411
-msg_065,notify,business_update,Verified business update,0.9,message_0032;message_0261
-msg_038,mute,spam,Detected potential spam,0.85,message_0132;message_0082
-msg_086,notify,business_update,Verified business update,0.9,message_0143;message_0249
-msg_014,notify,business_update,Verified business update,0.9,message_0188;message_0052
-msg_094,notify,business_update,Verified business update,0.9,message_0212;message_0388
-msg_029,mute,spam,Detected potential spam,0.85,message_0332;message_0114
-msg_105,mute,spam,Detected potential spam,0.85,message_0280;message_0156
-msg_002,notify,event,Event related message,0.85,message_0266;message_0169
-msg_010,notify,business_update,Verified business update,0.9,message_0101;message_0026
-msg_078,mute,spam,Detected potential spam,0.85,message_0212;message_0388
-msg_013,notify,personal,Frequent personal contact,0.75,message_0132;message_0082
-msg_018,mute,spam,Detected potential spam,0.85,message_0101;message_0026
-msg_044,digest,forward,Non-urgent forward,0.8,message_0143;message_0249
-msg_032,notify,personal,Frequent personal contact,0.75,message_0160;message_0375
-msg_106,notify,personal,Frequent personal contact,0.75,message_0234;message_0295
-msg_006,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
-msg_109,digest,payment,Default to digest for regular updates,0.85,message_0269;message_0180
-msg_108,digest,business_update,Default to digest for regular updates,0.9,message_0069;message_0277
-msg_019,digest,business_update,Default to digest for regular updates,0.9,message_0069;message_0277
-msg_088,digest,personal,Default to digest for regular updates,0.75,message_0115;message_0336
-msg_056,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
-msg_027,notify,business_update,Verified business update,0.9,message_0022;message_0198
-msg_050,digest,business_update,Default to digest for regular updates,0.9,message_0280;message_0156
-msg_083,notify,personal,Frequent personal contact,0.75,message_0324;message_0323
-msg_063,digest,payment,Default to digest for regular updates,0.85,message_0015;message_0016
-msg_033,notify,urgent,Urgent message detected,0.8,message_0280;message_0156
-msg_061,mute,spam,Detected potential spam,0.85,message_0063;message_0005
-msg_020,digest,forward,Non-urgent forward,0.8,message_0332;message_0114
-msg_017,digest,payment,Default to digest for regular updates,0.85,message_0319;message_0089
-msg_058,mute,spam,Detected potential spam,0.85,message_0040;message_0004
-msg_026,digest,business_update,Default to digest for regular updates,0.9,message_0032;message_0261
-msg_047,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
-msg_046,notify,personal,Frequent personal contact,0.75,message_0252;message_0411
-msg_042,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
-msg_079,notify,personal,Frequent personal contact,0.75,message_0173;message_0086
-msg_098,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
-msg_037,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
-msg_007,notify,personal,Frequent personal contact,0.75,message_0069;message_0277
-msg_085,digest,business_update,Default to digest for regular updates,0.9,message_0173;message_0086
-msg_001,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
-msg_021,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
-msg_028,notify,business_update,Verified business update,0.9,message_0188;message_0052
-msg_012,mute,spam,Detected potential spam,0.85,message_0063;message_0005
-msg_064,digest,forward,Non-urgent forward,0.8,message_0252;message_0411
-msg_103,notify,personal,Frequent personal contact,0.75,message_0332;message_0114
-msg_031,notify,personal,Frequent personal contact,0.75,message_0143;message_0249
-msg_057,notify,personal,Frequent personal contact,0.75,message_0266;message_0169
-msg_087,digest,personal,Default to digest for regular updates,0.75,message_0212;message_0388
-msg_067,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
-msg_039,notify,personal,Frequent personal contact,0.75,message_0015;message_0016
-msg_082,digest,personal,Default to digest for regular updates,0.75,message_0035;message_0322
-msg_066,digest,forward,Non-urgent forward,0.8,message_0188;message_0052
-msg_049,notify,business_update,Verified business update,0.9,message_0290;message_0154
-msg_015,notify,personal,Frequent personal contact,0.75,message_0173;message_0086
-msg_051,digest,forward,Non-urgent forward,0.8,message_0188;message_0052
-msg_097,notify,urgent,Urgent message detected,0.8,message_0040;message_0004
-msg_089,notify,personal,Frequent personal contact,0.75,message_0300;message_0396
-msg_053,mute,spam,Detected potential spam,0.85,message_0252;message_0411
-msg_059,digest,payment,Default to digest for regular updates,0.85,message_0173;message_0086
-msg_024,digest,forward,Non-urgent forward,0.8,message_0188;message_0052
-msg_072,digest,forward,Non-urgent forward,0.8,message_0173;message_0086
-msg_036,digest,forward,Non-urgent forward,0.8,message_0281;message_0008
-msg_076,digest,forward,Non-urgent forward,0.8,message_0160;message_0375
-msg_055,notify,personal,Frequent personal contact,0.75,message_0165;message_0348
-msg_102,notify,personal,Frequent personal contact,0.75,message_0266;message_0169
-msg_080,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
-msg_093,notify,business_update,Verified business update,0.9,message_0165;message_0348
-msg_034,mute,spam,Detected potential spam,0.85,message_0040;message_0004
-msg_035,notify,business_update,Verified business update,0.9,message_0281;message_0008
-msg_101,notify,personal,Frequent personal contact,0.75,message_0266;message_0169
-msg_041,notify,business_update,Verified business update,0.9,message_0040;message_0004
-msg_011,mute,spam,Detected potential spam,0.85,message_0040;message_0004
-msg_110,mute,scam,Detected potential scam,0.95,message_0035;message_0322
-msg_095,digest,payment,Default to digest for regular updates,0.85,message_0252;message_0411
-msg_074,mute,spam,Detected potential spam,0.85,message_0212;message_0388
-msg_073,mute,spam,Detected potential spam,0.85,message_0252;message_0411
-msg_054,digest,payment,Default to digest for regular updates,0.85,message_0212;message_0388
-msg_068,notify,personal,Frequent personal contact,0.75,message_0288;message_0192
-msg_100,notify,personal,Frequent personal contact,0.75,message_0143;message_0249
-msg_062,mute,spam,Detected potential spam,0.85,message_0269;message_0180
-msg_096,notify,personal,Frequent personal contact,0.75,message_0354;message_0355
-msg_043,mute,spam,Detected potential spam,0.85,message_0269;message_0180
-msg_077,notify,personal,Frequent personal contact,0.75,message_0015;message_0016
-msg_081,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
-msg_025,notify,business_update,Verified business update,0.9,message_0040;message_0004
-msg_084,notify,business_update,Verified business update,0.9,message_0212;message_0388
-msg_022,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
+message_id,type,file_path,transcription,caption,priority
+img_1,image,dataset/images/img_001.jpg,,Image showing img_001,normal
+img_2,image,dataset/images/img_002.jpg,,Image showing img_002,normal
+img_3,image,dataset/images/img_003.jpg,,Image showing img_003,normal
+img_4,image,dataset/images/img_004.jpg,,Image showing img_004,normal
+img_5,image,dataset/images/img_005.jpg,,Image showing img_005,normal
+img_6,image,dataset/images/img_006.jpg,,Image showing img_006,normal
+img_7,image,dataset/images/img_007.jpg,,Image showing img_007,normal
+img_8,image,dataset/images/img_008.jpg,,Image showing img_008,normal
+img_9,image,dataset/images/img_010.jpg,,Image showing img_010,normal
+img_10,image,dataset/images/img_011.jpg,,Document image with critical information,urgent
+img_11,image,dataset/images/img_012.jpg,,Image showing img_012,normal
+img_12,image,dataset/images/img_013.jpg,,Image showing img_013,normal
+img_13,image,dataset/images/img_014.jpg,,Image showing img_014,normal
+img_14,image,dataset/images/img_016.jpg,,Image showing img_016,normal
+img_15,image,dataset/images/img_020.jpg,,Image showing img_020,normal
+img_16,image,dataset/images/img_022.jpg,,Document image with critical information,urgent
+img_17,image,dataset/images/img_023.jpg,,Image showing img_023,normal
+img_18,image,dataset/images/img_024.jpg,,Image showing img_024,normal
+img_19,image,dataset/images/img_025.jpg,,Image showing img_025,normal
+img_20,image,dataset/images/img_026.jpg,,Image showing img_026,normal
+vn_1,voice,dataset/voice_notes/vn_001.mp3,Sample transcription for vn_001.mp3,,normal
+vn_2,voice,dataset/voice_notes/vn_002.mp3,Sample transcription for vn_002.mp3,,normal
+vn_3,voice,dataset/voice_notes/vn_003.mp3,Sample transcription for vn_003.mp3,,normal
+vn_4,voice,dataset/voice_notes/vn_004.mp3,Sample transcription for vn_004.mp3,,normal
+vn_5,voice,dataset/voice_notes/vn_005.mp3,"please respond asap, this is important",,urgent
+vn_6,voice,dataset/voice_notes/vn_006.mp3,Sample transcription for vn_006.mp3,,normal
+vn_7,voice,dataset/voice_notes/vn_007.mp3,Sample transcription for vn_007.mp3,,normal
+vn_8,voice,dataset/voice_notes/vn_008.mp3,Sample transcription for vn_008.mp3,,normal
+vn_9,voice,dataset/voice_notes/vn_009.mp3,Sample transcription for vn_009.mp3,,normal
+vn_10,voice,dataset/voice_notes/vn_012.mp3,"please respond asap, this is important",,urgent
+vn_11,voice,dataset/voice_notes/vn_013.mp3,Sample transcription for vn_013.mp3,,normal
+vn_12,voice,dataset/voice_notes/vn_014.mp3,Sample transcription for vn_014.mp3,,normal
+vn_13,voice,dataset/voice_notes/vn_015.mp3,Sample transcription for vn_015.mp3,,normal
