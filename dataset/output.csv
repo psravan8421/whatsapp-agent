@@ -1,0 +1,111 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,notify,business_update,Verified business update,0.9,message_0101;message_0026
+msg_091,mute,scam,Detected potential scam,0.95,message_0035;message_0322
+msg_090,notify,personal,Frequent personal contact,0.75,message_0339;message_0340
+msg_048,digest,forward,Non-urgent forward,0.8,message_0269;message_0180
+msg_040,mute,spam,Detected potential spam,0.85,message_0188;message_0052
+msg_075,notify,business_update,Verified business update,0.9,message_0234;message_0295
+msg_005,notify,personal,Frequent personal contact,0.75,message_0332;message_0114
+msg_104,digest,personal,Default to digest for regular updates,0.75,message_0115;message_0336
+msg_069,mute,spam,Detected potential spam,0.85,message_0063;message_0005
+msg_107,digest,forward,Non-urgent forward,0.8,message_0173;message_0086
+msg_070,notify,personal,Frequent personal contact,0.75,message_0173;message_0086
+msg_003,notify,business_update,Verified business update,0.9,message_0266;message_0169
+msg_099,notify,event,Event related message,0.85,message_0143;message_0249
+msg_008,notify,business_update,Verified business update,0.9,message_0072;message_0298
+msg_092,notify,promotion,Event related message,0.85,message_0344;message_0384
+msg_060,notify,personal,Frequent personal contact,0.75,message_0160;message_0375
+msg_004,notify,business_update,Verified business update,0.9,message_0063;message_0005
+msg_030,digest,forward,Non-urgent forward,0.8,message_0115;message_0336
+msg_045,notify,personal,Frequent personal contact,0.75,message_0266;message_0169
+msg_052,digest,forward,Non-urgent forward,0.8,message_0160;message_0375
+msg_009,notify,personal,Frequent personal contact,0.75,message_0032;message_0261
+msg_071,notify,personal,Frequent personal contact,0.75,message_0022;message_0198
+msg_016,digest,forward,Non-urgent forward,0.8,message_0252;message_0411
+msg_065,notify,business_update,Verified business update,0.9,message_0032;message_0261
+msg_038,mute,spam,Detected potential spam,0.85,message_0132;message_0082
+msg_086,notify,business_update,Verified business update,0.9,message_0143;message_0249
+msg_014,notify,business_update,Verified business update,0.9,message_0188;message_0052
+msg_094,notify,business_update,Verified business update,0.9,message_0212;message_0388
+msg_029,mute,spam,Detected potential spam,0.85,message_0332;message_0114
+msg_105,mute,spam,Detected potential spam,0.85,message_0280;message_0156
+msg_002,notify,event,Event related message,0.85,message_0266;message_0169
+msg_010,notify,business_update,Verified business update,0.9,message_0101;message_0026
+msg_078,mute,spam,Detected potential spam,0.85,message_0212;message_0388
+msg_013,notify,personal,Frequent personal contact,0.75,message_0132;message_0082
+msg_018,mute,spam,Detected potential spam,0.85,message_0101;message_0026
+msg_044,digest,forward,Non-urgent forward,0.8,message_0143;message_0249
+msg_032,notify,personal,Frequent personal contact,0.75,message_0160;message_0375
+msg_106,notify,personal,Frequent personal contact,0.75,message_0234;message_0295
+msg_006,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
+msg_109,digest,payment,Default to digest for regular updates,0.85,message_0269;message_0180
+msg_108,digest,business_update,Default to digest for regular updates,0.9,message_0069;message_0277
+msg_019,digest,business_update,Default to digest for regular updates,0.9,message_0069;message_0277
+msg_088,digest,personal,Default to digest for regular updates,0.75,message_0115;message_0336
+msg_056,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
+msg_027,notify,business_update,Verified business update,0.9,message_0022;message_0198
+msg_050,digest,business_update,Default to digest for regular updates,0.9,message_0280;message_0156
+msg_083,notify,personal,Frequent personal contact,0.75,message_0324;message_0323
+msg_063,digest,payment,Default to digest for regular updates,0.85,message_0015;message_0016
+msg_033,notify,urgent,Urgent message detected,0.8,message_0280;message_0156
+msg_061,mute,spam,Detected potential spam,0.85,message_0063;message_0005
+msg_020,digest,forward,Non-urgent forward,0.8,message_0332;message_0114
+msg_017,digest,payment,Default to digest for regular updates,0.85,message_0319;message_0089
+msg_058,mute,spam,Detected potential spam,0.85,message_0040;message_0004
+msg_026,digest,business_update,Default to digest for regular updates,0.9,message_0032;message_0261
+msg_047,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
+msg_046,notify,personal,Frequent personal contact,0.75,message_0252;message_0411
+msg_042,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
+msg_079,notify,personal,Frequent personal contact,0.75,message_0173;message_0086
+msg_098,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
+msg_037,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
+msg_007,notify,personal,Frequent personal contact,0.75,message_0069;message_0277
+msg_085,digest,business_update,Default to digest for regular updates,0.9,message_0173;message_0086
+msg_001,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
+msg_021,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
+msg_028,notify,business_update,Verified business update,0.9,message_0188;message_0052
+msg_012,mute,spam,Detected potential spam,0.85,message_0063;message_0005
+msg_064,digest,forward,Non-urgent forward,0.8,message_0252;message_0411
+msg_103,notify,personal,Frequent personal contact,0.75,message_0332;message_0114
+msg_031,notify,personal,Frequent personal contact,0.75,message_0143;message_0249
+msg_057,notify,personal,Frequent personal contact,0.75,message_0266;message_0169
+msg_087,digest,personal,Default to digest for regular updates,0.75,message_0212;message_0388
+msg_067,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
+msg_039,notify,personal,Frequent personal contact,0.75,message_0015;message_0016
+msg_082,digest,personal,Default to digest for regular updates,0.75,message_0035;message_0322
+msg_066,digest,forward,Non-urgent forward,0.8,message_0188;message_0052
+msg_049,notify,business_update,Verified business update,0.9,message_0290;message_0154
+msg_015,notify,personal,Frequent personal contact,0.75,message_0173;message_0086
+msg_051,digest,forward,Non-urgent forward,0.8,message_0188;message_0052
+msg_097,notify,urgent,Urgent message detected,0.8,message_0040;message_0004
+msg_089,notify,personal,Frequent personal contact,0.75,message_0300;message_0396
+msg_053,mute,spam,Detected potential spam,0.85,message_0252;message_0411
+msg_059,digest,payment,Default to digest for regular updates,0.85,message_0173;message_0086
+msg_024,digest,forward,Non-urgent forward,0.8,message_0188;message_0052
+msg_072,digest,forward,Non-urgent forward,0.8,message_0173;message_0086
+msg_036,digest,forward,Non-urgent forward,0.8,message_0281;message_0008
+msg_076,digest,forward,Non-urgent forward,0.8,message_0160;message_0375
+msg_055,notify,personal,Frequent personal contact,0.75,message_0165;message_0348
+msg_102,notify,personal,Frequent personal contact,0.75,message_0266;message_0169
+msg_080,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
+msg_093,notify,business_update,Verified business update,0.9,message_0165;message_0348
+msg_034,mute,spam,Detected potential spam,0.85,message_0040;message_0004
+msg_035,notify,business_update,Verified business update,0.9,message_0281;message_0008
+msg_101,notify,personal,Frequent personal contact,0.75,message_0266;message_0169
+msg_041,notify,business_update,Verified business update,0.9,message_0040;message_0004
+msg_011,mute,spam,Detected potential spam,0.85,message_0040;message_0004
+msg_110,mute,scam,Detected potential scam,0.95,message_0035;message_0322
+msg_095,digest,payment,Default to digest for regular updates,0.85,message_0252;message_0411
+msg_074,mute,spam,Detected potential spam,0.85,message_0212;message_0388
+msg_073,mute,spam,Detected potential spam,0.85,message_0252;message_0411
+msg_054,digest,payment,Default to digest for regular updates,0.85,message_0212;message_0388
+msg_068,notify,personal,Frequent personal contact,0.75,message_0288;message_0192
+msg_100,notify,personal,Frequent personal contact,0.75,message_0143;message_0249
+msg_062,mute,spam,Detected potential spam,0.85,message_0269;message_0180
+msg_096,notify,personal,Frequent personal contact,0.75,message_0354;message_0355
+msg_043,mute,spam,Detected potential spam,0.85,message_0269;message_0180
+msg_077,notify,personal,Frequent personal contact,0.75,message_0015;message_0016
+msg_081,notify,personal,Frequent personal contact,0.75,message_0040;message_0004
+msg_025,notify,business_update,Verified business update,0.9,message_0040;message_0004
+msg_084,notify,business_update,Verified business update,0.9,message_0212;message_0388
+msg_022,notify,personal,Frequent personal contact,0.75,message_0269;message_0180
