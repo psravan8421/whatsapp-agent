@@ -1,0 +1,4 @@
+Total files processed: 149
+Images: 60
+Voice notes: 39
+CSVs: 48
